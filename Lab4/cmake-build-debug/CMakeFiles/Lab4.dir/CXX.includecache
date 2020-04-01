@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/dsivan/Programming/Lab4/interface.cpp
+interface.h
+/Users/dsivan/Programming/Lab4/interface.h
+cmath
+-
+iostream
+-
+
+/Users/dsivan/Programming/Lab4/interface.h
+string
+-
+
+/Users/dsivan/Programming/Lab4/main.cpp
+interface.h
+/Users/dsivan/Programming/Lab4/interface.h
+iostream
+-
+vector
+-
+
