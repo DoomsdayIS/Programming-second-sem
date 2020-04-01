@@ -14,7 +14,7 @@ public:
     Vector(const Vector&);
     void add_Vector(const Vector&);
     void sub_Vector(const Vector&);
-    void length();
+    float length();
     void find_angle(const Vector&);
     void print();
 };

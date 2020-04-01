@@ -103,11 +103,11 @@ bool Matrix::operator!=(const Matrix &mx) const {
     for (int i = 0; i < 3; ++i) {
         for (int j = 0; j < 3; ++j) {
             if (matrix[i][j] != mx.matrix[i][j]){
-                equ = false;
+                 return false;
             }
         }
     }
-    return equ;
+    return true;
 }
 
 void Matrix::print() {

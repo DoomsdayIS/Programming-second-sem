@@ -33,8 +33,8 @@ void Vector::sub_Vector(const Vector &vec) {
     z_ -= vec.z_;
 }
 
-void Vector::length() {
-    std::cout << "Длина ветора равна "<<  std::sqrtf(powf(x_,2) + powf(y_,2) + powf(z_,2)) << std::endl;
+float Vector::length() {
+    return std::sqrtf(powf(x_,2) + powf(y_,2) + powf(z_,2));
 }
 
 void Vector::find_angle(const Vector &vec) {
