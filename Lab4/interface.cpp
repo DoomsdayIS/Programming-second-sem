@@ -145,3 +145,5 @@ std::string Parallelogram::getClassName() const {
 unsigned Parallelogram::getSize() const {
     return sizeof(*this);
 }
+
+

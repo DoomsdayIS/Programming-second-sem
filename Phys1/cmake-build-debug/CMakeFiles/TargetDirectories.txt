@@ -1,0 +1,3 @@
+/Users/dsivan/Programming/Phys1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/dsivan/Programming/Phys1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/dsivan/Programming/Phys1/cmake-build-debug/CMakeFiles/Phys1.dir

@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/dsivan/Programming/Lab7/circular_buffer.h
+exception
+-
+
+/Users/dsivan/Programming/Lab7/main.cpp
+iostream
+-
+string
+-
+circular_buffer.h
+/Users/dsivan/Programming/Lab7/circular_buffer.h
+

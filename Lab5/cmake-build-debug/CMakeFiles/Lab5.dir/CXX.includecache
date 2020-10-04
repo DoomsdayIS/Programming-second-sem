@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/dsivan/Programming/Lab5/exceptions.h
+string
+-
+exception
+-
+
+/Users/dsivan/Programming/Lab5/func.h
+func.tpp
+/Users/dsivan/Programming/Lab5/func.tpp
+
+/Users/dsivan/Programming/Lab5/func.tpp
+
+/Users/dsivan/Programming/Lab5/main.cpp
+iostream
+-
+vector
+-
+func.h
+/Users/dsivan/Programming/Lab5/func.h
+queue.h
+/Users/dsivan/Programming/Lab5/queue.h
+exceptions.h
+/Users/dsivan/Programming/Lab5/exceptions.h
+
+/Users/dsivan/Programming/Lab5/queue.h
+cstddef
+-
+exceptions.h
+/Users/dsivan/Programming/Lab5/exceptions.h
+
