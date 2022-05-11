@@ -1,10 +1,13 @@
 from math import sin, sqrt
 
-from numpy import double, sign
+from numpy import double, sign, math
 
 
 def func(x):
     return double(sin(x) * x ** 2)
+
+# def func(x):
+#     return double(sin(x) * (1 - math.e - x)**2 + x**2*math.e**(-(x**2)))
 
 
 def brent(a: double, c: double, eps: double):
@@ -74,3 +77,5 @@ print("Minimum point is " + str(minimum) + "\nIteration number : " + str(iter_co
 print("Values step by step :")
 print(lengths)
 
+for i in range(1, len(lengths)):
+    print(lengths[i] / lengths[i - 1], "  ", i)
