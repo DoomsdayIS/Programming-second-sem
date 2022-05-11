@@ -1,10 +1,10 @@
-from math import sin
+from math import sin, exp
 
-from numpy import double
+from numpy import double, math
 
 
 def func(x):
-    return double(sin(x) * x ** 2)
+    return double(sin(x) * (1 - math.e - x)**2 + x**2*math.e**(-(x**2)))
 
 
 def dichotomy(a, b, e):
@@ -36,9 +36,11 @@ print("Minimum point is " + str(minimum) + "\nIteration number : " + str(iter_co
 print("Values step by step :")
 print(lengths)
 
-
+for i in range(1, len(lengths)):
+    print(lengths[i] / lengths[i - 1], "  ", i)
 
 #3.1415926 6.2830 0.01
 # 3.1415926 6.2830 0.0001
 #3.1415926 6.2830 0.000001
 #3.1415926 6.2830 0.00000001
+#-31.41592 28.27433 0.00000001

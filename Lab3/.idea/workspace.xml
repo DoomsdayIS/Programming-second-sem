@@ -12,27 +12,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4d76584-c9ae-4242-8c19-ce8ca754b6a7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Lab5/.idea/Lab5.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab5/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab5/exceptions.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab5/func.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab5/func.tpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab5/lecture.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab5/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab5/queue.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab6/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab6/.idea/Lab6.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab6/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab6/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab6/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab6/functions.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab6/functions.tpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab7/circular_buffer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Py/.idea/Py.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab4/cmake-build-debug/CMakeFiles/Lab4.dir/interface.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/cmake-build-debug/CMakeFiles/Lab4.dir/interface.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab4/cmake-build-debug/Lab4" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/cmake-build-debug/Lab4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab4/interface.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/interface.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Py/func.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Py/input.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Py/1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Py/1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +68,7 @@
       <workItem from="1584511642894" duration="556000" />
       <workItem from="1585051452645" duration="3000" />
       <workItem from="1591164385959" duration="250000" />
+      <workItem from="1619636471315" duration="15000" />
     </task>
     <servers />
   </component>
@@ -93,25 +76,9 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1584512245848">
+    <state x="397" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1619636471607">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1584512245848" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1584512245846">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1584512245846" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1584512245845">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1584512245845" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1584512245847">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1584512245847" />
-    <state x="397" y="276" key="com.intellij.ide.util.TipDialog" timestamp="1585051453151">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="397" y="276" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1585051453151" />
+    <state x="397" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1619636471607" />
   </component>
 </project>

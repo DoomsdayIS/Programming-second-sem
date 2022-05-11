@@ -53,7 +53,7 @@ def update_figure(n_clicks, y0,x0,wx,wy,delta2):
 
     fi = np.pi * delta2
     fig = go.Figure()
-    t = np.arange(0, 2 * np.pi, 0.01)
+    t = np.arange(0, 2 * np.pi, 0.0001)
     fig.add_trace(go.Scatter(line=dict(width = 5),x=(x0 * np.cos(wx * t)), y=(y0 * np.cos(wy * t + fi))))
     fig.update_layout(height = 500,width = 500)
     return fig
